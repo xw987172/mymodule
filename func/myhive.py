@@ -10,8 +10,8 @@ for key,val in myconf:
 
 
 class myhiveclass():
-    def __init__(self,host):
-        self.con = hive.connect(host)
+    def __init__(self,config):
+        self.con = hive.Connection(**config)
 
     def __enter__(self):
         return self
@@ -42,12 +42,12 @@ class myhiveclass():
     def select(self,sql):
         with self.con.cursor() as cur:
             cur.execute(sql)
-            return cur.fetch()
+            return cur.fetchall()
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.con.close()
 
 if __name__ == "__main__":
-    with myhiveclass(host) as hive:
+    with myhiveclass(config) as hive:
         for result in hive.select("select * from dw.bic_stores where city ='南宁' limit 10"):
             print(result)
