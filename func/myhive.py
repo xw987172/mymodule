@@ -1,16 +1,17 @@
-import pyhs2
+from pyhive import hive
 import configparser
 config = configparser.ConfigParser()
 config.read("../config.ini")
 myconf = config.items("hive")
+host = config["hive"]["host"]
 config = dict()
 for key,val in myconf:
     config[key] = val if key!="port" else int(val)
 
 
 class myhiveclass():
-    def __init__(self,config):
-        self.con = pyhs2.connect(**config)
+    def __init__(self,host):
+        self.con = hive.connect(host)
 
     def __enter__(self):
         return self
@@ -47,6 +48,6 @@ class myhiveclass():
         self.con.close()
 
 if __name__ == "__main__":
-    with myhiveclass(config) as hive:
-        for result in hive.select("select * from bic_stores where city ='南宁' limit 10"):
+    with myhiveclass(host) as hive:
+        for result in hive.select("select * from dw.bic_stores where city ='南宁' limit 10"):
             print(result)

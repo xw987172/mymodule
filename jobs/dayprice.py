@@ -1,6 +1,6 @@
 import sys
 from func.mymath import mymathclass
-from func.myhive import myhiveclass,config
+from func.myhive import myhiveclass,host
 class ab:
 
     def ac(self):
@@ -30,11 +30,11 @@ class ab:
         '''
         sql = "select group_concat(distinct sale_date) from bic_stores where store_code =%s and sale_date in (select distinct sale_date from bic_stores where store_code=%s)" %(whstore_code,store_code)
 
-        with myhiveclass(config) as myhive:
+        with myhiveclass(host) as myhive:
             result = myhive.select(sql)
             common_day = result[0]
 
-            vals1 = myhive.select("select group_concat(sales_amt) from bic_stores where store_code =%s and sale_date in (%s) order by sale_date asc" %(whstore_code,",".join(common_day)))[0]
+            vals1 = myhive.select("select group_concat(ifnull(sales_amt,0)) from bic_stores where store_code =%s and sale_date in (%s) order by sale_date asc" %(whstore_code,",".join(common_day)))[0]
             vals1 = vals1.split(",")
             vals2 = myhive.select(
                 "select group_concat(sales_amt) from bic_stores where store_code =%s and sale_date in (\"%s\") order by sale_date asc" % (
@@ -60,13 +60,9 @@ class ab:
         :return: 
         '''
         sql = "select store_code from dw.bic_stores where city in %s" %(str(city))
-        with myhiveclass(config) as myhive:
+        with myhiveclass(host) as myhive:
             result = myhive.select(sql)
         return [store_code[0] for store_code in result]
-
-
-
-
 
 
 

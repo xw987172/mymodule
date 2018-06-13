@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="" />
+    <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mymodule.iml" afterPath="$PROJECT_DIR$/.idea/mymodule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ini" afterPath="$PROJECT_DIR$/config.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/myhive.py" afterPath="$PROJECT_DIR$/func/myhive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/dayprice.py" afterPath="$PROJECT_DIR$/jobs/dayprice.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,10 +17,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mymodule$myhive.coverage" NAME="myhive Coverage Results" MODIFIED="1528774732451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/mymodule$myhive.coverage" NAME="myhive Coverage Results" MODIFIED="1528853127571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/mymodule$mymysql.coverage" NAME="mymysql Coverage Results" MODIFIED="1528791806302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/mymodule$work.coverage" NAME="work Coverage Results" MODIFIED="1528769146588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mymodule$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1528790870766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
+    <SUITE FILE_PATH="coverage/mymodule$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1528850139540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -30,16 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myhive.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myhive.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/func/myhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1528792058995" expanded="true" signature="1240:1275" ph="select * fro... bic_stores" />
-                <marker date="1528792058995" expanded="true" signature="1240:1277" ph="select * fro... bic_stores" />
-                <marker date="1528792058995" expanded="true" signature="1240:1290" ph="select * fro... bic_stores" />
-                <marker date="1528792058995" expanded="true" signature="1240:1292" ph="select * fro... bic_stores" />
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+                <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+                <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+                <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
               </folding>
             </state>
           </provider>
@@ -48,8 +56,8 @@
       <file leaf-file-name="mymysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/mymysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding>
                 <marker date="1528791806292" expanded="true" signature="1415:1453" ph="select * fro... today" />
               </folding>
@@ -57,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mymath.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mymath.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/mymath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -80,15 +88,15 @@
       <file leaf-file-name="dayprice.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="145">
+              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="64" selection-end-column="55" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1528790870760" expanded="true" signature="813:970" ph="select group... bic_stores" />
-                <marker date="1528790870760" expanded="true" signature="908:967" ph="select disti... bic_stores" />
-                <marker date="1528790870760" expanded="true" signature="1155:1267" ph="select group... bic_stores" />
-                <marker date="1528790870760" expanded="true" signature="1399:1515" ph="select group... bic_stores" />
-                <marker date="1528790870760" expanded="true" signature="2145:2196" ph="select store... bic_stores" />
+                <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+                <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+                <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+                <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+                <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
               </folding>
             </state>
           </provider>
@@ -112,16 +120,19 @@
       <replace>store_code</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/func/mymath.py" />
         <option value="$PROJECT_DIR$/jobs/t1.py" />
         <option value="$PROJECT_DIR$/work.py" />
-        <option value="$PROJECT_DIR$/jobs/dayprice.py" />
         <option value="$PROJECT_DIR$/func/mymysql.py" />
-        <option value="$PROJECT_DIR$/func/myhive.py" />
+        <option value="$PROJECT_DIR$/jobs/dayprice.py" />
         <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/func/myhive.py" />
       </list>
     </option>
   </component>
@@ -132,11 +143,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="27" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="712" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -194,12 +205,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -214,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mymysql">
+  <component name="RunManager" selected="Python.myhive">
     <configuration default="false" name="work" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -447,9 +458,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.mymysql" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myhive" />
         <item index="1" class="java.lang.String" itemvalue="Python.t1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myhive" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mymysql" />
         <item index="3" class="java.lang.String" itemvalue="Python.work" />
       </list>
     </recent_temporary>
@@ -468,17 +479,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="27" width="1280" height="724" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,6 +527,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -535,6 +565,136 @@
     <entry file="file://$PROJECT_DIR$/work.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#857#1115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mymysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <marker date="1528791806292" expanded="true" signature="1415:1453" ph="select * fro... today" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mymath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myhive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#857#1115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mymysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <marker date="1528791806292" expanded="true" signature="1415:1453" ph="select * fro... today" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mymath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myhive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
           <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding>
             <element signature="e#857#1115#0" expanded="false" />
@@ -547,10 +707,11 @@
         <state relative-caret-position="90">
           <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
-            <marker date="1528792058995" expanded="true" signature="1240:1275" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1277" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1290" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1292" ph="select * fro... bic_stores" />
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
           </folding>
         </state>
       </provider>
@@ -577,11 +738,11 @@
           <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1528790870760" expanded="true" signature="813:970" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="908:967" ph="select disti... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1155:1267" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1399:1515" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="2145:2196" ph="select store... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
           </folding>
         </state>
       </provider>
@@ -638,11 +799,11 @@
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1528790870760" expanded="true" signature="813:970" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="908:967" ph="select disti... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1155:1267" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1399:1515" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="2145:2196" ph="select store... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
           </folding>
         </state>
       </provider>
@@ -652,10 +813,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding>
-            <marker date="1528792058995" expanded="true" signature="1240:1275" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1277" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1290" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1292" ph="select * fro... bic_stores" />
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
           </folding>
         </state>
       </provider>
@@ -696,16 +858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyhive/hive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#194#232#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyhive/hive.py" />
     <entry file="file://$PROJECT_DIR$/work.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -716,40 +869,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1528790870760" expanded="true" signature="813:970" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="908:967" ph="select disti... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1155:1267" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="1399:1515" ph="select group... bic_stores" />
-            <marker date="1528790870760" expanded="true" signature="2145:2196" ph="select store... bic_stores" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/mymysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding>
             <marker date="1528791806292" expanded="true" signature="1415:1453" ph="select * fro... today" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/myhive.py">
+    <entry file="file://$PROJECT_DIR$/func/mymath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="64" selection-end-column="55" />
           <folding>
-            <marker date="1528792058995" expanded="true" signature="1240:1275" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1277" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1290" ph="select * fro... bic_stores" />
-            <marker date="1528792058995" expanded="true" signature="1240:1292" ph="select * fro... bic_stores" />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1528850261468" expanded="true" signature="811:968" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="906:965" ph="select disti... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1151:1273" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="1405:1521" ph="select group... bic_stores" />
+            <marker date="1528850261468" expanded="true" signature="2151:2202" ph="select store... bic_stores" />
           </folding>
         </state>
       </provider>
@@ -762,11 +910,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/mymath.py">
+    <entry file="file://$PROJECT_DIR$/func/myhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1528853118877" expanded="true" signature="1272:1310" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1312" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1325" ph="select * fro... bic_stores" />
+            <marker date="1528853118877" expanded="true" signature="1272:1327" ph="select * fro... bic_stores" />
+          </folding>
         </state>
       </provider>
     </entry>
