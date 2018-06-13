@@ -6,6 +6,10 @@ class mymathclass:
         dot_product = 0.0
         normA,normB = [0.0]*2
         for a,b in zip(vector1,vector2):
+            if a==None or b==None:
+                continue
+            a = float(a)
+            b = float(b)
             dot_product += a*b
             normA += a**2
             normB += b**2

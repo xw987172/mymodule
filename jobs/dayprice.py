@@ -1,6 +1,8 @@
 import sys
 from func.mymath import mymathclass
-from func.myhive import myhiveclass,host
+from func.myhive import myhiveclass,config
+from eprogress import LineProgress
+import xlwt
 class ab:
 
     def ac(self):
@@ -28,18 +30,19 @@ class ab:
         :param whstore_code: 
         :return: (store_code, whstore_code, 余弦值,)
         '''
-        sql = "select group_concat(distinct sale_date) from bic_stores where store_code =%s and sale_date in (select distinct sale_date from bic_stores where store_code=%s)" %(whstore_code,store_code)
+        sql = "select concat_ws(',',substring(a.sale_date,1,10)) from bic_stores a inner join bic_stores b on a.sale_date=b.sale_date where a.store_code =%s and b.store_code=%s" %(whstore_code,store_code)
 
-        with myhiveclass(host) as myhive:
+        with myhiveclass(config) as myhive:
             result = myhive.select(sql)
-            common_day = result[0]
+            result = ["\""+str(x[0])+"\"" for x in result]
+            common_day = ",".join(result)
 
-            vals1 = myhive.select("select group_concat(ifnull(sales_amt,0)) from bic_stores where store_code =%s and sale_date in (%s) order by sale_date asc" %(whstore_code,",".join(common_day)))[0]
-            vals1 = vals1.split(",")
+            vals1 = myhive.select("select concat_ws(',',cast(sales_amt as string)) from bic_stores where store_code =%s and sale_date in (%s)" %(whstore_code,common_day))
+            vals1 = [x[0] for x in vals1]
             vals2 = myhive.select(
-                "select group_concat(sales_amt) from bic_stores where store_code =%s and sale_date in (\"%s\") order by sale_date asc" % (
-                store_code, ",".join(common_day)))[0]
-            vals2 = vals2.split(",")
+                "select concat_ws(',',cast(sales_amt as string)) from bic_stores where store_code =%s and sale_date in (%s)" % (
+                store_code, common_day))
+            vals2 = [x[0] for x in vals2]
             return (store_code,whstore_code,mymathclass.cosLike(vals1,vals2),)
 
     def work(self):
@@ -47,10 +50,21 @@ class ab:
         执行函数
         :return: 
         '''
-        dict11,dict12 = [self.getdata1(city) for city in (('武汉'),('南宁','长沙'))]
+        dict11,dict12 = [self.getdata1(city) for city in ['"武汉"',("南宁","长沙")]]
         result = [self._getData(store_code,whstore_code) for store_code in dict11 for whstore_code in dict12]
-        for s in result:
-            print(s)
+        # result =list()
+        # progress = LineProgress(title="line progress")
+        # for i,store_code in enumerate(dict11):
+        #     for whstore_code in dict12:
+        #         result.append(self._getData(store_code,whstore_code))
+        #     progress.update(i)
+        wb = xlwt.Workbook()
+        st = wb.add_sheet("sheet")
+        for i,s in enumerate(result):
+            st.write(i,0,str(s[0]))
+            st.write(i,1,str(s[1]))
+            st.write(i,2,str(s[2]))
+        wb.save("coslike.xls")
 
     @staticmethod
     def getdata1(city):
@@ -59,8 +73,8 @@ class ab:
         :param city: 
         :return: 
         '''
-        sql = "select store_code from dw.bic_stores where city in %s" %(str(city))
-        with myhiveclass(host) as myhive:
+        sql = "select store_code from dw.bic_stores where city in (%s)" %(str(city)) if isinstance(city,str) else "select store_code from dw.bic_stores where city in %s" %(str(city))
+        with myhiveclass(config) as myhive:
             result = myhive.select(sql)
         return [store_code[0] for store_code in result]
 
