@@ -2,9 +2,9 @@ import configparser,pymysql
 config = configparser.ConfigParser()
 config.read("../config.ini")
 myconf = config.items("mysql")
-config = dict()
+myconfig = dict()
 for key,val in myconf:
-    config[key] = val if key!="port" else int(val)
+    myconfig[key] = val if key!="port" else int(val)
 
 
 class mymysqlclass():
@@ -28,9 +28,9 @@ class mymysqlclass():
         cur = self.con.cursor()
         try:
             if vals==None:
-                cur.execute(sql, vals)
-            else:
                 cur.execute(sql)
+            else:
+                cur.execute(sql, vals)
             self.con.commit()
         except Exception as err:
             print(err)
