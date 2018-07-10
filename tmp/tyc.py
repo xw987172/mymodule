@@ -85,19 +85,28 @@ class tyc:
 
     def match(self):
         im = Image.open("spit.png")
-        normal = im.getpixel((0, 0))
-        data = list()
+        # normal = im.getpixel((0, 0))
+        dataZB = dict()
         a,b = im.size
         for h in range(0, b):
             for w in range(0, a):
                 try:
                     a1, b1, c1 = im.getpixel((h, w))
-                    if abs(a1 - normal[0]) + abs(b1 - normal[1]) + abs(c1 - normal[2]) < 10:
-                        data.append(0)
-                    else:
-                        data.append(1)
+                    # if abs(a1 - normal[0]) + abs(b1 - normal[1]) + abs(c1 - normal[2]) < 10:
+                    #     data.append(0)
+                    # else:
+                    #     data.append(1)
                 except:
                     pass
+                else:
+                    if str(a1)+","+str(b1)+","+str(c1) in dataZB.keys():
+                        dataZB[str(a1)+","+str(b1)+","+str(c1)] += 1
+                    else:
+                        dataZB[str(a1) + "," + str(b1) + "," + str(c1)] =1
+
+        dataZBnew = filter(lambda x: len(x)<=9 ,dataZB.keys())
+        dataNew = sum(dataZB.get(x) for x in dataZBnew)
+        print(dataNew)
         im2 = Image.open("background.png")
         max = 100
         x,y =0,0
@@ -108,10 +117,10 @@ class tyc:
                     for w1 in range(0,a):
                         try:
                             a1,b1,c1 = im2.getpixel((h+h1,w+w1))
-                            if abs(a1-normal[0])+abs(b1-normal[1])+abs(c1-normal[2])<10:
-                                bdata.append(0)
-                            else:
-                                bdata.append(1)
+                            # if abs(a1-normal[0])+abs(b1-normal[1])+abs(c1-normal[2])<10:
+                            #     bdata.append(0)
+                            # else:
+                            #     bdata.append(1)
                         except:
                             pass
                 try:

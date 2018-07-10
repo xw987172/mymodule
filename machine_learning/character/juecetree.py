@@ -8,6 +8,9 @@ import pandas as pd
 from math import log
 
 class jcTree:
+    '''
+    信息熵，信息增益
+    '''
     trainData = list()
     trainLabel = list()
     featureValues = dict()  # 每个特征所有可能的取值
@@ -89,7 +92,11 @@ class jcTree:
             return list(labelCount.keys())[0]
 
         # 计算特征集中每个特征的信息增益
-        l = map(lambda x:[x,self.calculateGain(dataset=dataset, feature=x)],features)
+        l = list()
+        for f in features:
+            result = [f,self.calculateGain(dataset=dataset, feature=f)]
+            l.append(result)
+        # l = map(lambda x:[x,self.calculateGain(dataset=dataset, feature=x)],features)
 
         # 选取信息增益最大的特征
         feature,gain = max(l,key=lambda x:x[1])

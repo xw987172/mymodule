@@ -181,30 +181,19 @@ class ab:
                         mymysqlclass(myconfig).dochange(sql,(shop[0],dt[:10],standard,type,val,radius))
 
     def dosql_surround(self):
-        sql = "select distinct cfrom from corlike"
+        sql = "select cfrom,tend from tmp_corlike"
         shops = mymysqlclass(myconfig).select(sql)
-        types = mymysqlclass(myconfig).select("select distinct type1,type2 from surround where date='2018-06-20'")
-        for shop in shops:
-            sql = "select tend,cor/b.corsum from corlike,(select sum(cor) as corsum from corlike where cfrom=%s) as b where cfrom=%s" % (
-            shop[0], shop[0])
-            data = mymysqlclass(myconfig).select(sql)
-            for dt in [dateutilsclass.getDay(n) for n in range(3, 4)]:
-                dt = str(dt)
-                val = 0
-                for standard, type in types:
-                    for sid, rate in data:
-                        sql = "select {0}*count(1) from surround where shopid ={1} and date='{2}' and type1='{3}' and type2='{4}'  and distance<=500".format(
-                            rate, sid, dt[:10], standard, type)
-                        tmp = mymysqlclass(myconfig).select(sql)
-                        if len(tmp) == 1:
-                            val += tmp[0][0]
-                    sql = "insert into pre_surround(shopid,date,type1,type2,num) values(%s,%s,%s,%s,%s)"
-                    print(sql)
-                    print(shop, dt[:10], standard, type, val)
-                    mymysqlclass(myconfig).dochange(sql, (shop[0], dt[:10], standard, type, val))
+        types = mymysqlclass(myconfig).select("select distinct type1,type2 from surround where date='2018-06-24'")
+        for cf,te in shops:
+            for standard, type in types:
+                sql = "select count(1) from surround where shopid ={0} and date='2018-06-24' and type1='{1}' and type2='{2}'  and distance<=500".format(
+                    te, standard, type)
+                tmp = mymysqlclass(myconfig).select(sql)
+                val = tmp[0][0]
+                sql = "insert into pre_surround(shopid,date,radius,type1,type2,num) values(%s,%s,%s,%s,%s,%s)"
+                print(sql)
+                mymysqlclass(myconfig).dochange(sql, (cf, "2018-06-24",0.5, standard, type, val))
 
 if __name__ == "__main__":
     # print(ab().work())
-    ab().dosql()
-    # ab().dosql_people()
     ab().dosql_surround()

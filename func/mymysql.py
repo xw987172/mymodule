@@ -1,6 +1,6 @@
 import configparser,pymysql
 config = configparser.ConfigParser()
-config.read("../config.ini")
+config.read("/Users/xuwei/PycharmProjects/mymodule/config.ini")
 myconf = config.items("mysql")
 myconfig = dict()
 for key,val in myconf:
