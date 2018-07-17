@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/OnlineShops/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ini" afterPath="$PROJECT_DIR$/config.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/mymath.py" afterPath="$PROJECT_DIR$/func/mymath.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/weather/2345hour.py" afterPath="$PROJECT_DIR$/jobs/weather/2345hour.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,24 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2345hour.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2345hour.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="-1359">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
-                <element signature="e#34#49#0" expanded="true" />
-                <marker date="1531213697672" expanded="true" signature="801:866" ph="select 1 fro... missing_value" />
+                <marker date="1531794923562" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChinaWeatherWeb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChinaWeatherWeb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="-324">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
                 <marker date="1531794753743" expanded="true" signature="241:301" ph="select shopi... today" />
@@ -195,12 +188,12 @@
         <option value="$PROJECT_DIR$/func/mymysql.py" />
         <option value="$PROJECT_DIR$/machine_learning/myRandomTree.py" />
         <option value="$PROJECT_DIR$/jobs/weather/qxj.py" />
-        <option value="$PROJECT_DIR$/jobs/weather/2345hour.py" />
         <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/func/mymath.py" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops.py" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
         <option value="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" />
+        <option value="$PROJECT_DIR$/jobs/weather/2345hour.py" />
       </list>
     </option>
   </component>
@@ -1235,17 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#34#49#0" expanded="true" />
-            <marker date="1531213697672" expanded="true" signature="801:866" ph="select 1 fro... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/mymysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1258,12 +1240,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="-324">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
             <marker date="1531794753743" expanded="true" signature="241:301" ph="select shopi... today" />
             <marker date="1531794753743" expanded="true" signature="1223:1339" ph="insert into weather_hour_c... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1359">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1531794923562" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
           </folding>
         </state>
       </provider>

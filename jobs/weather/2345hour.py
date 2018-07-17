@@ -2,6 +2,8 @@
 '''
 2345小时级预测数据
 '''
+import sys
+sys.path.append("/home/hdfs/mymodule/")
 import requests
 from urllib.parse import quote,urlencode
 from func.date.dateutils import dateutilsclass
