@@ -28,11 +28,30 @@ class mymathclass:
         '''
         return sqrt(sum(pow(a-b,2) for a,b in zip(vector1,vector2)))
 
+    @staticmethod
+    def selfRelate(X,k=None):
+        '''
+        自相关系数
+        :param X: 序列
+        :param k: 延迟
+        :return: 
+        '''
+        avg = sum(X)/len(X)
+        fenzi = 0
+        fenmu = 0
+        for i in range(len(X)-k):
+            fenzi += (X[i]-avg)*(X[i+k] - avg)
+
+        for i in range(len(X)):
+            fenmu += (X[i]-avg)**2
+
+        return round(fenzi/fenmu,4)
+
 
 if __name__=="__main__":
-    a = [1,1,1,1,1]
-    b = [1,1,1,1,1]
-    print(mymathclass.cosLike(a,b))
+    x = list(range(1,21))
+    for i in range(1,7):
+        print(i,mymathclass.selfRelate(x,i))
 
     # for i in range(5,60):
     #     a = list(range(1,i))

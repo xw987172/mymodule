@@ -73,6 +73,7 @@ class spider2345:
         ts = 1000*(time.time())
         url = self.url.format(areacode,type,ts)
         resp = requests.get(url,headers = self.header)
+        resp.encoding = "gbk"
         data = eval(resp.text.split(";")[0].split("=")[1])
         line = WeatherItem()
         line.area = areacode
@@ -111,9 +112,7 @@ class spider2345:
             print(dd)
             href = dd.get("href")
             mt = "".join(list(filter(str.isdigit, href)))
-            print(mt)
             area = dd.text
-            print(area)
             result[str(area)]=mt
         print(result)
 
