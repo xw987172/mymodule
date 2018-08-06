@@ -1,7 +1,9 @@
 from pyhive import hive
 import configparser
+import os
 config = configparser.ConfigParser()
-config.read("/Users/xuwei/PycharmProjects/mymodule/config.ini")
+project_dir = os.path.dirname(os.path.dirname(__file__))
+config.read(project_dir+"/config.ini")
 myconf = config.items("hive")
 host = config["hive"]["host"]
 config = dict()
