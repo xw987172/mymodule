@@ -30,9 +30,9 @@ class myhiveclass():
         cur = self.con.cursor()
         try:
             if vals==None:
-                cur.execute(sql, vals)
-            else:
                 cur.execute(sql)
+            else:
+                cur.executemany(sql,vals)
             self.con.commit()
         except Exception as err:
             print(err)

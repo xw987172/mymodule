@@ -30,7 +30,7 @@ class mymysqlclass():
             if vals==None:
                 cur.execute(sql)
             else:
-                cur.execute(sql, vals)
+                cur.executemany(sql, vals)
             self.con.commit()
         except Exception as err:
             print(err)
@@ -53,8 +53,11 @@ class mymysqlclass():
         self.con.close()
 
 if __name__=="__main__":
-    import pandas as pd
-    with mymysqlclass(config) as mysql:
-        result = mysql.select("select shopid,name from today limit 10")
-    data = pd.DataFrame(list(result),columns=["id","name"])
-    print(data["id"])
+    data = [['2018-08-03', 117362, 4527.56787109375, 'sales_predict', 'xgboost'], ['2018-08-03', 117363, 6986.17431640625, 'sales_predict', 'xgboost']]
+    # import pandas as pd
+    sql = "insert into machine_learning(date,store_code,predict_sales,model_group,model) values(%s,%s,%s,%s,%s)"
+    with mymysqlclass(myconfig) as mysql:
+        mysql.dochange(sql,data)
+        # result = mysql.select("select shopid,name from today limit 10")
+    # data = pd.DataFrame(list(result),columns=["id","name"])
+    # print(data["id"])

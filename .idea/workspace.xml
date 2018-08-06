@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/AddKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/AddKey/jsEncrypt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/myParamiko.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/machine_learning/netweb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/gaode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/tmp1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/date/dateutils.py" afterPath="$PROJECT_DIR$/func/date/dateutils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/myhive.py" afterPath="$PROJECT_DIR$/func/myhive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/mymysql.py" afterPath="$PROJECT_DIR$/func/mymysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/OnlineShops/JD.py" afterPath="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/weather/2345hour.py" afterPath="$PROJECT_DIR$/jobs/weather/2345hour.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" afterPath="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/weather/qxj.py" afterPath="$PROJECT_DIR$/jobs/weather/qxj.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/character/neuralnet.py" afterPath="$PROJECT_DIR$/machine_learning/character/neuralnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/character/recognize.py" afterPath="$PROJECT_DIR$/machine_learning/character/recognize.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,117 +27,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mymodule$shuangseqiu.coverage" NAME="shuangseqiu Coverage Results" MODIFIED="1530759289929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
     <SUITE FILE_PATH="coverage/mymodule$myRandomTree.coverage" NAME="myRandomTree Coverage Results" MODIFIED="1531101515264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
     <SUITE FILE_PATH="coverage/mymodule$tt.coverage" NAME="tt Coverage Results" MODIFIED="1528937040133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
     <SUITE FILE_PATH="coverage/mymodule$myhive.coverage" NAME="myhive Coverage Results" MODIFIED="1530089076242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
-    <SUITE FILE_PATH="coverage/mymodule$ChinaWeatherWeb.coverage" NAME="ChinaWeatherWeb Coverage Results" MODIFIED="1531794636100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
-    <SUITE FILE_PATH="coverage/mymodule$juecetree.coverage" NAME="juecetree Coverage Results" MODIFIED="1530672984014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
-    <SUITE FILE_PATH="coverage/mymodule$qxj.coverage" NAME="qxj Coverage Results" MODIFIED="1531190350760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
-    <SUITE FILE_PATH="coverage/mymodule$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1530067786941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
+    <SUITE FILE_PATH="coverage/mymodule$netweb.coverage" NAME="netweb Coverage Results" MODIFIED="1532081165185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/mymodule$neuralnet.coverage" NAME="neuralnet Coverage Results" MODIFIED="1532510511715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
+    <SUITE FILE_PATH="coverage/mymodule$qxj.coverage" NAME="qxj Coverage Results" MODIFIED="1531814145238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
     <SUITE FILE_PATH="coverage/mymodule$locate.coverage" NAME="locate Coverage Results" MODIFIED="1530004669958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
-    <SUITE FILE_PATH="coverage/mymodule$ts.coverage" NAME="ts Coverage Results" MODIFIED="1530778965164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
-    <SUITE FILE_PATH="coverage/mymodule$mymath.coverage" NAME="mymath Coverage Results" MODIFIED="1531381273115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
-    <SUITE FILE_PATH="coverage/mymodule$recognize.coverage" NAME="recognize Coverage Results" MODIFIED="1529044579043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
-    <SUITE FILE_PATH="coverage/mymodule$2345hour.coverage" NAME="2345hour Coverage Results" MODIFIED="1531213679278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
     <SUITE FILE_PATH="coverage/mymodule$tyc.coverage" NAME="tyc Coverage Results" MODIFIED="1529998541929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
     <SUITE FILE_PATH="coverage/mymodule$wifi.coverage" NAME="wifi Coverage Results" MODIFIED="1530870449874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
-    <SUITE FILE_PATH="coverage/mymodule$mymysql.coverage" NAME="mymysql Coverage Results" MODIFIED="1530955424721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/mymodule$myParamiko.coverage" NAME="myParamiko Coverage Results" MODIFIED="1532580371167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/mymodule$gaode.coverage" NAME="gaode Coverage Results" MODIFIED="1531814454241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
+    <SUITE FILE_PATH="coverage/mymodule$mymysql.coverage" NAME="mymysql Coverage Results" MODIFIED="1533107475531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/mymodule$JD.coverage" NAME="JD Coverage Results" MODIFIED="1533168650825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/OnlineShops" />
+    <SUITE FILE_PATH="coverage/mymodule$work.coverage" NAME="work Coverage Results" MODIFIED="1532570304036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mymodule$dateutils.coverage" NAME="dateutils Coverage Results" MODIFIED="1532936872782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func/date" />
+    <SUITE FILE_PATH="coverage/mymodule$shuangseqiu.coverage" NAME="shuangseqiu Coverage Results" MODIFIED="1530759289929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
+    <SUITE FILE_PATH="coverage/mymodule$ChinaWeatherWeb.coverage" NAME="ChinaWeatherWeb Coverage Results" MODIFIED="1531794636100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
+    <SUITE FILE_PATH="coverage/mymodule$juecetree.coverage" NAME="juecetree Coverage Results" MODIFIED="1530672984014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
+    <SUITE FILE_PATH="coverage/mymodule$jd2.coverage" NAME="jd2 Coverage Results" MODIFIED="1533173893826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/OnlineShops" />
+    <SUITE FILE_PATH="coverage/mymodule$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1530067786941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
+    <SUITE FILE_PATH="coverage/mymodule$ts.coverage" NAME="ts Coverage Results" MODIFIED="1530778965164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
+    <SUITE FILE_PATH="coverage/mymodule$mymath.coverage" NAME="mymath Coverage Results" MODIFIED="1531381273115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func" />
+    <SUITE FILE_PATH="coverage/mymodule$recognize.coverage" NAME="recognize Coverage Results" MODIFIED="1532515103630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/character" />
+    <SUITE FILE_PATH="coverage/mymodule$jsEncrypt.coverage" NAME="jsEncrypt Coverage Results" MODIFIED="1533003085599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/func/AddKey" />
+    <SUITE FILE_PATH="coverage/mymodule$2345hour.coverage" NAME="2345hour Coverage Results" MODIFIED="1533092820491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
+    <SUITE FILE_PATH="coverage/mymodule$tmp1.coverage" NAME="tmp1 Coverage Results" MODIFIED="1533207808679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
     <SUITE FILE_PATH="coverage/mymodule$hive2sql.coverage" NAME="hive2sql Coverage Results" MODIFIED="1530955286242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
-    <SUITE FILE_PATH="coverage/mymodule$work.coverage" NAME="work Coverage Results" MODIFIED="1528769146588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mymodule$ifworkday.coverage" NAME="ifworkday Coverage Results" MODIFIED="1530604958217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mymath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/mymath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JD.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/JD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="915">
+              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
-                <element signature="e#25#40#0" expanded="true" />
+                <element signature="e#15#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dateutils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qxj.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/weather/qxj.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-                <marker date="1531188545315" expanded="true" signature="716:769" ph="select 1 fro... missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myRandomTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_learning/myRandomTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2345hour.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2345hour.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1359">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding>
-                <marker date="1531794923562" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChinaWeatherWeb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-324">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-                <marker date="1531794753743" expanded="true" signature="241:301" ph="select shopi... today" />
-                <marker date="1531794753743" expanded="true" signature="1223:1339" ph="insert into weather_hour_c... " />
+                <marker date="1533093308754" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
+                <marker date="1533093308754" expanded="true" signature="989:1021" ph="insert into missing_value... " />
               </folding>
             </state>
           </provider>
@@ -131,12 +97,77 @@
       <file leaf-file-name="mymysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/mymysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="780">
+              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
-                <marker date="1530955580588" expanded="true" signature="1454:1492" ph="select shopi... today" />
+                <marker date="1533107475523" expanded="true" signature="1552:1652" ph="insert into machine_learning... " />
+                <marker date="1533107475523" expanded="true" signature="1762:1800" ph="select shopi... today" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jd2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jd2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myhive.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/func/myhive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="25" />
+              <folding>
+                <marker date="1533194449518" expanded="true" signature="1324:1377" ph="select * fro... bic_stores" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tmp1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/tmp1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <marker date="1533207808672" expanded="true" signature="175:303" ph="select store... " />
+                <marker date="1533207808672" expanded="true" signature="360:477" ph="update spide... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsEncrypt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/AddKey/jsEncrypt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dateutils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authcode.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/authcode.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -145,6 +176,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -153,6 +185,27 @@
     <findStrings>
       <find>shopid</find>
       <find>iSelectList</find>
+      <find>17621</find>
+      <find>176</find>
+      <find>1762</find>
+      <find>mac</find>
+      <find>高清线</find>
+      <find>ul</find>
+      <find>王阳明</find>
+      <find>&lt;ul</find>
+      <find>王</find>
+      <find>uuid</find>
+      <find>JD_V</find>
+      <find>JD_Verification</find>
+      <find>navigator</find>
+      <find>;var at=at||{};at</find>
+      <find>(function(a,b){if(typeof define===&quot;func</find>
+      <find>ima</find>
+      <find>7TJI</find>
+      <find>7TJI7T</find>
+      <find>patch</find>
+      <find>s.</find>
+      <find>getDat</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -166,34 +219,46 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/jobs/t1.py" />
-        <option value="$PROJECT_DIR$/work.py" />
         <option value="$PROJECT_DIR$/func/tt.py" />
         <option value="$PROJECT_DIR$/machine_learning/__init__.py" />
         <option value="$PROJECT_DIR$/machine_learning/character/__init__.py" />
-        <option value="$PROJECT_DIR$/machine_learning/character/recognize.py" />
-        <option value="$PROJECT_DIR$/machine_learning/character/neuralnet.py" />
         <option value="$PROJECT_DIR$/machine_learning/character/shuangseqiu.py" />
         <option value="$PROJECT_DIR$/tmp/tyc.py" />
         <option value="$PROJECT_DIR$/tmp/locate.py" />
         <option value="$PROJECT_DIR$/jobs/dayprice.py" />
-        <option value="$PROJECT_DIR$/func/myhive.py" />
         <option value="$PROJECT_DIR$/func/processbar.py" />
         <option value="$PROJECT_DIR$/jobs/ifworkday.py" />
         <option value="$PROJECT_DIR$/machine_learning/character/juecetree.py" />
         <option value="$PROJECT_DIR$/jobs/hive2sql.py" />
         <option value="$PROJECT_DIR$/machine_learning/character/fitchangsha.py" />
         <option value="$PROJECT_DIR$/tmp/ts.py" />
-        <option value="$PROJECT_DIR$/func/date/dateutils.py" />
         <option value="$PROJECT_DIR$/jobs/wifi.py" />
-        <option value="$PROJECT_DIR$/func/mymysql.py" />
         <option value="$PROJECT_DIR$/machine_learning/myRandomTree.py" />
-        <option value="$PROJECT_DIR$/jobs/weather/qxj.py" />
         <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/func/mymath.py" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops.py" />
-        <option value="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
         <option value="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" />
+        <option value="$PROJECT_DIR$/jobs/weather/qxj.py" />
+        <option value="$PROJECT_DIR$/tmp/gaode.py" />
+        <option value="$PROJECT_DIR$/machine_learning/netweb.py" />
+        <option value="$PROJECT_DIR$/func/kkkk.py" />
+        <option value="$PROJECT_DIR$/machine_learning/character/neuralnet.py" />
+        <option value="$PROJECT_DIR$/machine_learning/character/recognize.py" />
+        <option value="$PROJECT_DIR$/tmp/__init__.py" />
+        <option value="$PROJECT_DIR$/tmp/dir1/__init__.py" />
+        <option value="$PROJECT_DIR$/tmp/dir1/dir2/__init__.py" />
+        <option value="$PROJECT_DIR$/tmp/dir1/dir2/mod/model.py" />
+        <option value="$PROJECT_DIR$/work.py" />
+        <option value="$PROJECT_DIR$/func/myParamiko.py" />
+        <option value="$PROJECT_DIR$/jobs/OnlineShops/jdjsencrypt.js" />
+        <option value="$PROJECT_DIR$/func/date/dateutils.py" />
+        <option value="$PROJECT_DIR$/func/AddKey/jsEncrypt.py" />
+        <option value="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
         <option value="$PROJECT_DIR$/jobs/weather/2345hour.py" />
+        <option value="$PROJECT_DIR$/func/mymysql.py" />
+        <option value="$PROJECT_DIR$/jobs/OnlineShops/jd2.py" />
+        <option value="$PROJECT_DIR$/func/myhive.py" />
+        <option value="$PROJECT_DIR$/tmp/tmp1.py" />
       </list>
     </option>
   </component>
@@ -204,10 +269,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="23" />
+    <option name="y" value="53" />
     <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,8 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,38 +312,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mymodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mymodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machine_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mymodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mymodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machine_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="character" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,8 +397,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mymodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mymodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="func" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddKey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,40 +443,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ChinaWeatherWeb">
-    <configuration default="false" name="qxj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tmp1">
+    <configuration default="false" name="JD" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs/weather" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs/OnlineShops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mymodule" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/weather/qxj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/OnlineShops/JD.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="myRandomTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="jd2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs/OnlineShops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mymodule" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning/myRandomTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/OnlineShops/jd2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -451,7 +501,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="mymath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mymysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -464,26 +514,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mymodule" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/mymath.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/mymysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ChinaWeatherWeb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tmp1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs/weather" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tmp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mymodule" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp/tmp1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -638,19 +688,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.qxj" />
-      <item index="1" class="java.lang.String" itemvalue="Python.myRandomTree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.JD" />
+      <item index="1" class="java.lang.String" itemvalue="Python.jd2" />
       <item index="2" class="java.lang.String" itemvalue="Python.2345hour" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mymath" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ChinaWeatherWeb" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mymysql" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tmp1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ChinaWeatherWeb" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mymath" />
-        <item index="2" class="java.lang.String" itemvalue="Python.2345hour" />
-        <item index="3" class="java.lang.String" itemvalue="Python.qxj" />
-        <item index="4" class="java.lang.String" itemvalue="Python.myRandomTree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tmp1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.jd2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.JD" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mymysql" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2345hour" />
       </list>
     </recent_temporary>
   </component>
@@ -677,19 +727,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1280" height="728" extended-state="0" />
+    <frame x="0" y="53" width="1280" height="659" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3513732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4305331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30660376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34391534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20125785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20094192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5185185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -697,7 +747,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -779,6 +829,41 @@
           <line>117</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/machine_learning/netweb.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/machine_learning/character/neuralnet.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/machine_learning/character/recognize.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/machine_learning/character/neuralnet.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jobs/OnlineShops/JD.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jobs/OnlineShops/JD.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/AddKey/jsEncrypt.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -787,191 +872,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#6365#8093#0" expanded="false" />
-            <marker date="1530067747596" expanded="true" signature="1134:1200" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="1134:1202" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="1134:1203" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="1134:1225" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="1570:1631" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="1570:1656" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="2010:2111" ph="select group... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="2247:2348" ph="select group... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3407:3468" ph="select store... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3407:3470" ph="select store... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3407:3471" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3516:3576" ph="select store... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3516:3578" ph="select store... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3516:3593" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3516:3600" ph="select disti... bic_stores" />
-            <marker date="1530067747596" expanded="true" signature="3790:3820" ph="select id fr... population_hour" />
-            <marker date="1530067747596" expanded="true" signature="3945:4040" ph="select id fr... population_hour" />
-            <marker date="1530067747596" expanded="true" signature="3945:4044" ph="select * fro... population_hour" />
-            <marker date="1530067747596" expanded="true" signature="3945:4045" ph="select * fro... population_hour" />
-            <marker date="1530067747596" expanded="true" signature="4178:4298" ph="insert into ceshi... " />
-            <marker date="1530067747596" expanded="true" signature="4500:4534" ph="select disti... corlike" />
-            <marker date="1530067747596" expanded="true" signature="4633:4744" ph="select tend,... corlike" />
-            <marker date="1530067747596" expanded="true" signature="4633:4746" ph="select tend,... corlike" />
-            <marker date="1530067747596" expanded="true" signature="4672:4723" ph="select sum(c... corlike" />
-            <marker date="1530067747596" expanded="true" signature="5097:5179" ph="select {0}*n... " />
-            <marker date="1530067747596" expanded="true" signature="5097:5191" ph="select missi... population" />
-            <marker date="1530067747596" expanded="true" signature="5492:5579" ph="insert into population... " />
-            <marker date="1530067747596" expanded="true" signature="5815:5849" ph="select disti... corlike" />
-            <marker date="1530067747596" expanded="true" signature="5948:6059" ph="select tend,... corlike" />
-            <marker date="1530067747596" expanded="true" signature="5987:6038" ph="select sum(c... corlike" />
-            <marker date="1530067747596" expanded="true" signature="8176:8247" ph="select missi... population" />
-            <marker date="1530067747596" expanded="true" signature="8176:8269" ph="select missi... people" />
-            <marker date="1530067747596" expanded="true" signature="8176:8284" ph="select missi... people" />
-            <marker date="1530067747596" expanded="true" signature="8523:8609" ph="insert into population_pre... " />
-            <marker date="1530067747596" expanded="true" signature="8865:8899" ph="select disti... corlike" />
-            <marker date="1530067747596" expanded="true" signature="8999:9064" ph="select disti... surround" />
-            <marker date="1530067747596" expanded="true" signature="9159:9206" ph="select missi... surround" />
-            <marker date="1530067747596" expanded="true" signature="9159:9244" ph="select missi... surround" />
-            <marker date="1530067747596" expanded="true" signature="9159:9260" ph="select missi... surround" />
-            <marker date="1530067747596" expanded="true" signature="9159:9279" ph="select missi... surround" />
-            <marker date="1530067747596" expanded="true" signature="9441:9527" ph="insert into pre_people... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/myhive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pyhive/hive.py" />
-    <entry file="file://$PROJECT_DIR$/work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/func/tt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/character/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/character/neuralnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="27" lean-forward="false" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/character/recognize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/761739169/numpy/core/umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="2879" column="4" lean-forward="false" selection-start-line="2879" selection-start-column="4" selection-end-line="2879" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/761739169/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="299" column="4" lean-forward="false" selection-start-line="299" selection-start-column="4" selection-end-line="299" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/target.jpg" />
-    <entry file="file://$PROJECT_DIR$/tmp/spit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/result.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/target.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3816" column="4" lean-forward="false" selection-start-line="3816" selection-start-column="4" selection-end-line="3816" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/locate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/site-packages/sklearn/ensemble/forest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/dayprice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -1024,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/myhive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/ifworkday.py" />
     <entry file="file://$PROJECT_DIR$/machine_learning/character/juecetree.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1046,16 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tyc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="165" selection-end-column="13" />
-          <folding>
-            <element signature="e#58#94#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,13 +972,6 @@
             <marker date="1530759289923" expanded="true" signature="11583:11615" ph="insert into distance... " />
             <marker date="1530759289923" expanded="true" signature="11583:11632" ph="insert into distance... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1147,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2250">
           <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,14 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11790">
           <caret line="788" column="0" lean-forward="false" selection-start-line="788" selection-start-column="0" selection-end-line="788" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1173,40 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machine_learning/myRandomTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/weather/qxj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-            <marker date="1531188545315" expanded="true" signature="716:769" ph="select 1 fro... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,48 +1056,247 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/weather/qxj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="30" lean-forward="false" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#29#0" expanded="false" />
+            <marker date="1531814145232" expanded="true" signature="716:769" ph="select 1 fro... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/gaode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tyc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <element signature="e#58#94#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning/netweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1577" column="0" lean-forward="false" selection-start-line="1577" selection-start-column="0" selection-end-line="1577" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning/character/neuralnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="172" column="8" lean-forward="false" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
+          <folding>
+            <element signature="e#78#96#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tmp/dir1/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tmp/dir1/dir2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tmp/dir1/dir2/mod/model.py" />
+    <entry file="file://$PROJECT_DIR$/work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/kkkk.py" />
+    <entry file="file://$PROJECT_DIR$/func/kkk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myParamiko.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning/character/recognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdjsencrypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="0" column="58362" lean-forward="true" selection-start-line="0" selection-start-column="58362" selection-end-line="0" selection-end-column="58362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jsencrypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10207">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/auth.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/patch.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/authcode.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/JD.py">
+    <entry file="file://$PROJECT_DIR$/func/AddKey/jsEncrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
-            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1533093308754" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
+            <marker date="1533093308754" expanded="true" signature="989:1021" ph="insert into missing_value... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/mymysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="780">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
-            <marker date="1530955580588" expanded="true" signature="1454:1492" ph="select shopi... today" />
+            <marker date="1533107475523" expanded="true" signature="1552:1652" ph="insert into machine_learning... " />
+            <marker date="1533107475523" expanded="true" signature="1762:1800" ph="select shopi... today" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/weather/ChinaWeatherWeb.py">
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/JD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="915">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
-            <marker date="1531794753743" expanded="true" signature="241:301" ph="select shopi... today" />
-            <marker date="1531794753743" expanded="true" signature="1223:1339" ph="insert into weather_hour_c... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/weather/2345hour.py">
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jd2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1359">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="405">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1531794923562" expanded="true" signature="852:917" ph="select 1 fro... missing_value" />
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <marker date="1533207808672" expanded="true" signature="175:303" ph="select store... " />
+            <marker date="1533207808672" expanded="true" signature="360:477" ph="update spide... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myhive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <marker date="1533194449518" expanded="true" signature="1324:1377" ph="select * fro... bic_stores" />
           </folding>
         </state>
       </provider>

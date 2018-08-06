@@ -21,20 +21,20 @@ def load(path="/Users/xuwei/Downloads/",kind= "train"):
 
 train_images,train_labels = load()
 test_images,test_labels = load(kind="t10k")
-
-print(train_images[0][0])
-print(train_labels)
+print(train_images.shape)
+print(train_images[train_labels==1][0].shape)
 # fig,ax = plt.subplots(nrows=2,ncols=5,sharex=True,)
 # '''绘制0-9的标准输出'''
 # ax = ax.flatten()
 # for i in range(10):
 #     img = train_images[train_labels==i][0].reshape(28,28)
 #     ax[i].imshow(img,cmap="Greys",interpolation="nearest")
-#
+
 # ax[0].set_xticks([])
 # ax[0].set_yticks([])
 # plt.tight_layout()
 # plt.show()
+
 nn = NeuralNetMLP(
     n_output    =10,                    # 10个输出单元，也就是模板值0-9
     n_features  =train_images.shape[1], # 786个输入单元，也就是特征维度
@@ -51,7 +51,7 @@ nn = NeuralNetMLP(
 )
 nn.fit(train_images,train_labels,print_progress=True)
 plt.plot(range(len(nn.cost_)),nn.cost_)
-plt.ylim([0,2000])
+plt.ylim([0,20000])
 plt.ylabel('Cost')
 plt.xlabel('Epochs * 50')
 plt.tight_layout()

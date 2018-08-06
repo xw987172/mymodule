@@ -1,7 +1,7 @@
 # coding:utf-8
 import requests
 import sys
-sys.path.append("../../")
+sys.path.append("/home/hdfs/mymodule/")
 from func.mymysql import mymysqlclass,myconfig
 from datetime import datetime
 '''

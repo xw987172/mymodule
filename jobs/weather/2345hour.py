@@ -30,11 +30,14 @@ class WeatherItem:
             columnsList.append(column)
             valueList.append(value)
             count += 1
-        # sql = "select 1 from {0} where time='{1}' and area ='{2}' and ifpredict={3}".format(table, self.time, self.area,
-        #                                                                                     self.ifpredict)
-        sql = "replace into {0}({1}) values({2})".format(table, ",".join(columnsList), ",".join(['%s'] * count))
-        with mymysqlclass(myconfig) as my:
-            my.dochange(sql, valueList)
+        # sql = "select 1 from {0} where time='{1}' and area ='{2}' and ifpredict={3}".format(table, self.time, self.area,self.ifpredict)
+
+        sql = "insert into {0}({1}) values({2})".format(table, ",".join(columnsList), ",".join(['%s'] * count))
+        try:
+            with mymysqlclass(myconfig) as my:
+                my.dochange(sql, valueList)
+        except:
+            print("已经存在...")
 
 
 class spider2345:
