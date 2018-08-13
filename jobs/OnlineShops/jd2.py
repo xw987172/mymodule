@@ -1,14 +1,19 @@
 # coding:utf8
 import requests
 import re
+from selenium import webdriver
+import urllib.parse
 from bs4 import BeautifulSoup as bs
-import hashlib
+import hashlib,re
+import execjs,os
+import base64
 s = requests.Session()
 url0 = "https://m.jd.com/"
 resp = s.get(url0,verify=False)
 print(resp.status_code)
 print(resp.url)
 print(resp.cookies)
+sid = resp.cookies.get("sid")
 
 url1 = "https://plogin.m.jd.com/user/login.action?appid=461&returnurl=http%3A%2F%2Fhome.m.jd.com%2FmyJd%2Fhome.action&ipChanged="
 
@@ -16,72 +21,93 @@ resp = s.get(url1,verify=False)
 print(resp.status_code)
 print(resp.url)
 print(resp.cookies)
-print(resp.text)
+
+str_rsaString = re.findall("str_rsaString = '(.*?)'",resp.text)[0]
+
+s_token = re.findall("str_kenString = '(.*?)'",resp.text)[0]
+
+def getMd5(obj = resp.text):
+    mds = re.findall("return md5\((.*?)\);",obj)[0]
+    parts = mds.split(')+')
+    result = ""
+    for part in parts:
+        part = part+")"
+        if "md5" in part:
+            h1 = hashlib.md5()
+            st = re.findall("md5\('(.*?)'\)",part)[0]
+            h1.update(st.encode(encoding='utf-8'))
+            result += h1.hexdigest()
+        elif "toUpper" in part:
+            st = re.findall("'(.*?)'",part)[0]
+            result += st.upper()
+        elif "charAt" in part:
+            st = re.findall("'(.*?)'",part)[0]
+            index = int(re.findall("charAt\((.*?)\)",part)[0])
+            result += st[index]
+        elif "toLow" in part:
+            st = re.findall("'(.*?)'",part)[0]
+            result += st.lower()
+        elif "substr" in part:
+            st = re.findall("'(.*?)'",part)[0]
+            index = int(re.findall("substr\((.*?)\)",part)[0])
+            result += st[index:]
+    h1 = hashlib.md5()
+    h1.update(result.encode(encoding='utf-8'))
+    return h1.hexdigest()
+
+def getRsa(pub,target):
+    url = "http://58.87.111.185:5000/getRsa?pub={0}&target={1}".format(pub,target)
+    driver = webdriver.PhantomJS()
+    driver.get(url)
+    data = driver.page_source.encode("utf-8","ignore").decode()
+    rsaStr = re.findall("<p id=\"info\">(.*?)</p>",data)[0]
+    return urllib.parse.quote(rsaStr)
+
+def get_risk_id():
+    risk_id = dict()
+    url = "https://payrisk.jd.com/m.html"
+    resp = requests.get(url)
+    risk_id["token"] = re.findall("'(..*?)'",resp.text)[0]
 
 
-url2 = "https://plogin.m.jd.com/cgi-bin/m/domlogin"
 
-class RSAKeyPair():
-
-    def __init__(self,a,b,c,d=1024):
-        self.e = [int(a)]+[0]*130
-        self.d = [1,1]+[0]*129
-
-
-def setMaxDigits(num):
-    maxDigits = num
-    zero_array = [0]*maxDigits
-    bigZeros = zero_array
-    bigOne = zero_array
-    bigOne[0] = 1
-
-def getusername(username):
-    str_rsastring = "C20FCAE7ED5E9122439DE58B7E0258CB2AFF5561EADBCDE476B0DC72B4850FF8AF1E2546BEB23EE5721397F0A1106B864F87B8D4EE053FE3397DFB33F12AF91424286D39829E6A76953B65B88C0B10B6B6D8EB788A346746FB7D51A1C4A349F671536F19811D84A011F388F4939C8AB0B59AE513851EF4FD49376B2D3F75BD71"
-    setMaxDigits(131)
-    b = RSAKeyPair("3","10001",str_rsastring,1024)
-
-def getpasswd(pwd):pass
-
-def getdat(content):
-    pattern = "md5\((.*?)\);"
-    target = re.findall(pattern, content)[0]
-    td = target.split(")+")
-    result = list()
-    for i,t in enumerate(td):
-        t = str(t)+")" if i !=len(td)-1 else str(t)
-        if "'+'" in t:
-            result.append(t.split("'+'")[0]+"'")
-            st = t.split("'+'")[1]+"'"
-        try:
-            st,deal = t.split(".")
-        except:
-            if "md5" in t:
-                tr = re.findall("md5\((.*?)\)",t)[0]
-                t = hashlib.md5(tr.encode('utf-8')).hexdigest()
-            result.append(t)
-        else:
-            if "toUpper" in deal:
-                st = st.upper()
-            elif "toLow" in deal:
-                st = st.lower()
-            elif "substr" in deal:
-                st = st[int(deal[-2]):]
-            elif "charAt" in deal:
-                st = st[int(deal[-2])]
-            result.append(st)
-    return hashlib.md5("".join(result).encode("utf-8")).hexdigest()
-
-postdata = {
-    "username":getusername("17621064595"),# 需要加密
-    "pwd":getpasswd("zhouhen987"),# 需要加密
-    "remember":"true",
-    "s_token":"?",
-    "dat":getdat(resp.text),
-    "wlfstk_datk":"06435bdeae2f30d3f76ff3145ee98071",
-    "risk_jd":{
-        "eid":"7AQ7MFUYFZTRLN2WNWVDG7ERGHUIKQG6V5QNMASWLFHFM4F25HBD3GLWWHKL477C7P4NECRHO34MVOYWSDPVHJRCYI",
-        "fp":"f223f5a3ea9470ad17bb9a6c3d99cae7",
-        "token":"NIIE2AI76LTKYQLE25HG4JJFR4EVKTF57A226JQMFSJJHOEZTOXFA3WVDGQ2YF7AB3HKAGQVQDGNW",
-    }
+username = getRsa(str_rsaString,"17621064595")
+pwd = getRsa(str_rsaString,"zhouhen987")
+dat = getMd5()
+risk_id = {
+    "eid":None,
+    "fp":None,
+    "token":None,
 }
-print(postdata.get("dat"))
+authcode = None
+url = "https://plogin.m.jd.com/cgi-bin/m/domlogin"
+postdata = "username=%s&pwd=%s&remember=true&s_token=%s&dat=%s&wlfstk_datk=%s&authcode=%s&risk_jd%5Beid%5D=%s&risk_jd%5Bfp%5D=%s&risk_jd%5Btoken%5D=%s" %(
+    username,
+    pwd,
+    s_token,
+    dat,
+    dat,
+    authcode,
+    risk_id.get("eid"),
+    risk_id.get("fp"),
+    risk_id.get("token"),
+)
+resp = s.get(url)
+print(resp.cookies)
+pt_key = resp.cookies.get("pt_key")
+pt_token = resp.cookies.get("pt_token")
+
+def last():
+    headers = {
+        "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+        "Cookie":"pt_key=AAFba5gQADDskHO2evRYNF1VZn8IFuR_L1PS7H71f8n_EZCDyeBXnjgcVi4sXggxkKaT3weibOk; pt_token=9luh4qgv;",
+    }
+
+    url = "https://home.m.jd.com/myJd/newhome.action?sid=ed513d92f632fffd8102451154d60fe8"
+
+    resp = requests.get(url,headers = headers)
+    print(resp.status_code,resp.url)
+    print(resp.text)
+    print(resp.cookies)
+
+last()

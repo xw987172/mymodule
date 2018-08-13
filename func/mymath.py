@@ -1,3 +1,4 @@
+# coding:utf8
 from math import sqrt
 
 class mymathclass:

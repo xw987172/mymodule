@@ -33,6 +33,5 @@ class dateutilsclass():
         return time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(nInt))
 
 if __name__=="__main__":
-    print(dateutilsclass.numToTime(1532936847.334))
-    print(dateutilsclass.numToTime(1532934362.938))
-    print(dateutilsclass.numToTime(1532934581.168))
+    print(dateutilsclass.numToTime(1526230800))
+    print(dateutilsclass.numToTime(1526223600))

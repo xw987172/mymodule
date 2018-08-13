@@ -1,5 +1,5 @@
 # coding:utf8
-import paramiko
+# import paramiko
 
 class myParamikoClass():
 
@@ -35,10 +35,11 @@ class myParamikoClass():
 
 
 if __name__ == "__main__":
-
-    with myParamikoClass(username="hdfs",hostname="47.98.99.192") as mp:
-        mp.execute("ls")
-        mp.download("~/xw/1_sample.py","k.py")
+    import sys
+    print(sys.argv)
+    # with myParamikoClass(username="hdfs",hostname="47.98.99.192") as mp:
+    #     mp.execute("ls")
+    #     mp.download("~/xw/1_sample.py","k.py")
     # # coding:utf8
     # from datetime import datetime
     # import subprocess

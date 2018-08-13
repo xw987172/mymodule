@@ -4,7 +4,7 @@ from urllib.parse import quote,urlencode
 from func.date.dateutils import dateutilsclass
 from bs4 import BeautifulSoup as bs
 from func.mymysql import mymysqlclass,myconfig
-
+import os
 class weather():
     def __init__(self):
         self.district = None
@@ -28,8 +28,7 @@ class weather():
         #     result = mp.select(sql)
         # if len(result)== 0:
         sql = "replace into {0}({1}) values({2})".format(table, ",".join(columnsList), ",".join(['%s'] * count))
-
-        mymysqlclass(myconfig).dochange(sql,valueList)
+        mymysqlclass(myconfig).dochange(sql,[valueList,])
             # else:
             # print("需要更新")
 
@@ -114,7 +113,7 @@ class QXJ:
 
 if __name__ == "__main__":
     # QXJ.area("黄陂区","2018-01-01")
-    for n in range(100,200):
+    for n in reversed(range(30,36)):
         date = str(dateutilsclass.getDay(n))[:10]
         print(date)
         try:
