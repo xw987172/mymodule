@@ -1,5 +1,9 @@
 #coding:utf-8
 import requests
+import sys,os
+base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+print(base_dir)
+sys.path.append(base_dir+"/func")
 from urllib.parse import quote,urlencode
 from func.date.dateutils import dateutilsclass
 from bs4 import BeautifulSoup as bs
@@ -113,12 +117,11 @@ class QXJ:
 
 if __name__ == "__main__":
     # QXJ.area("黄陂区","2018-01-01")
-    for n in reversed(range(30,36)):
-        date = str(dateutilsclass.getDay(n))[:10]
-        print(date)
-        try:
-            QXJ.hubei(date)
-        except Exception as e:
-            print(e)
+    date = str(dateutilsclass.getDay(1))[:10]
+    print(date)
+    try:
+        QXJ.hubei(date)
+    except Exception as err:
+        print(err)
     # #%BB % C6 % DA % E9 % C7 % F8
 
