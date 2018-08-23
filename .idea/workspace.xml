@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/component/windows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/OnlineShops/jdShop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning/myKmeans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/generateCapture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mymodule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mymodule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/func/myheapd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/date/dateutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/func/date/dateutils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/weather/qxj.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/weather/qxj.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,86 +47,65 @@
     <SUITE FILE_PATH="coverage/mymodule$ifworkday.coverage" NAME="ifworkday Coverage Results" MODIFIED="1530604958217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs" />
     <SUITE FILE_PATH="coverage/mymodule$ChinaWeatherWeb.coverage" NAME="ChinaWeatherWeb Coverage Results" MODIFIED="1531794636100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jobs/weather" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="tt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="280">
               <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myRandomTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_learning/myRandomTree.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="myKmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_learning/myKmeans.py">
+      <file leaf-file-name="GaoDe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="334">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mymysql.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/mymysql.py">
+      <file leaf-file-name="myheapd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/func/myheapd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myhive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/myhive.py">
+      <file leaf-file-name="dateutils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="209">
+              <caret line="23" column="93" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="93" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recognize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_learning/character/recognize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateCapture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/generateCapture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
+                <element signature="e#15#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +114,8 @@
       <file leaf-file-name="jdShop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdShop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="133">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -155,8 +126,8 @@
       <file leaf-file-name="k_means_.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/python3/Lib/site-packages/sklearn/cluster/k_means_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="881" lean-forward="true" selection-start-line="881" selection-end-line="881" />
+            <state relative-caret-position="16321">
+              <caret line="881" selection-start-line="881" selection-end-line="881" />
             </state>
           </provider>
         </entry>
@@ -211,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/machine_learning/__init__.py" />
-        <option value="$PROJECT_DIR$/machine_learning/character/__init__.py" />
         <option value="$PROJECT_DIR$/machine_learning/character/shuangseqiu.py" />
         <option value="$PROJECT_DIR$/tmp/tyc.py" />
         <option value="$PROJECT_DIR$/tmp/locate.py" />
@@ -254,7 +223,6 @@
         <option value="$PROJECT_DIR$/jobs/gaodeMap/GaoDeClass.py" />
         <option value="$PROJECT_DIR$/jobs/ImageAbout/ImageClass.py" />
         <option value="$PROJECT_DIR$/func/date/dateutils.py" />
-        <option value="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" />
         <option value="$PROJECT_DIR$/tmp/znxz.py" />
         <option value="$PROJECT_DIR$/component/windows.py" />
         <option value="$PROJECT_DIR$/jobs/weather/qxj.py" />
@@ -262,6 +230,9 @@
         <option value="$PROJECT_DIR$/machine_learning/myKmeans.py" />
         <option value="$PROJECT_DIR$/tmp/generateCapture.py" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops/jdShop.py" />
+        <option value="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" />
+        <option value="$USER_HOME$/Downloads/毛利预测.py" />
+        <option value="$PROJECT_DIR$/func/myheapd.py" />
       </list>
     </option>
   </component>
@@ -274,9 +245,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="128" />
-    <option name="y" value="108" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="546" />
+    <option name="y" value="164" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
@@ -286,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,18 +284,18 @@
               <item name="mymodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="mymodule" type="462c0819:PsiDirectoryNode" />
               <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="OnlineShops" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodeMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mymodule" type="b2602c69:ProjectViewProjectNode" />
               <item name="mymodule" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShops" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,22 +603,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="108" width="1378" height="735" extended-state="0" />
+    <frame x="171" y="171" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32225913" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31587562" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.42867982" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.320598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.2572079" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.036418818" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.036308624" />
       <window_info id="Structure" order="1" sideWeight="0.41315788" side_tool="true" weight="0.2980333" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32890365" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5199336" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -658,27 +629,28 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32733223" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.32890365" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328594" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,6 +667,14 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -793,6 +773,11 @@
           <line>13</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/date/dateutils.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -801,7 +786,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="85" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -819,16 +804,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmp/tyc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-          <folding>
-            <element signature="e#58#94#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/site-packages/numpy/core/_methods.py" />
     <entry file="file://$PROJECT_DIR$/tmp/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tmp/dir1/__init__.py" />
@@ -974,20 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component/windows.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#42#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,16 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="66" column="58" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="58" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,20 +1015,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/myRandomTree.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/python3/Lib/site-packages/sklearn/cluster/k_means_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="881" lean-forward="true" selection-start-line="881" selection-end-line="881" />
+        <state relative-caret-position="16321">
+          <caret line="881" selection-start-line="881" selection-end-line="881" />
         </state>
       </provider>
     </entry>
@@ -1087,20 +1029,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/myKmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/mymysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -1109,20 +1041,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/func/myhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning/character/recognize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,6 +1053,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
           <caret line="169" column="64" lean-forward="true" selection-start-line="169" selection-start-column="64" selection-end-line="169" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdShop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,20 +1076,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdShop.py">
+    <entry file="file://$PROJECT_DIR$/machine_learning/character/recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="779">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning/myKmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/毛利预测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/date/dateutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="93" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="93" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="334">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myheapd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>

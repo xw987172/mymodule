@@ -12,6 +12,12 @@ class GaoDeClass(object):
 
     @classmethod
     def GetLocationByName(cls,city,word):
+        '''
+        高德拾取坐标系统，根据输入的地址关键字获取经纬度信息等。。。
+        :param city:
+        :param word:
+        :return:
+        '''
         url = cls.url.format(city, up.quote(word))
         resp = requests.get(url).json()
         result = dict()
