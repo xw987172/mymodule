@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/func/myheapd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/func/mycollection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myheapd.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myheapd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/myheapd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="-24">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mycollection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/func/mycollection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -182,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/machine_learning/character/shuangseqiu.py" />
-        <option value="$PROJECT_DIR$/tmp/tyc.py" />
         <option value="$PROJECT_DIR$/tmp/locate.py" />
         <option value="$PROJECT_DIR$/jobs/dayprice.py" />
         <option value="$PROJECT_DIR$/func/processbar.py" />
@@ -233,6 +239,8 @@
         <option value="$PROJECT_DIR$/jobs/gaodeMap/GaoDe.py" />
         <option value="$USER_HOME$/Downloads/毛利预测.py" />
         <option value="$PROJECT_DIR$/func/myheapd.py" />
+        <option value="$PROJECT_DIR$/account.txt" />
+        <option value="$PROJECT_DIR$/func/mycollection.py" />
       </list>
     </option>
   </component>
@@ -246,8 +254,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
-    <option name="y" value="164" />
+    <option name="x" value="1600" />
+    <option name="y" value="67" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
@@ -322,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jdShop">
+  <component name="RunManager" selected="Python.mycollection">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="mymodule" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -399,7 +407,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="qxj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mycollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mymodule" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -407,18 +415,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs/weather" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs/weather/qxj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/mycollection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myheapd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mymodule" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -426,12 +434,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/myheapd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -564,19 +572,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.qxj" />
-      <item itemvalue="Python.tt" />
       <item itemvalue="Python.myKmeans" />
       <item itemvalue="Python.generateCapture" />
       <item itemvalue="Python.jdShop" />
+      <item itemvalue="Python.myheapd" />
+      <item itemvalue="Python.mycollection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mycollection" />
+        <item itemvalue="Python.myheapd" />
         <item itemvalue="Python.jdShop" />
         <item itemvalue="Python.generateCapture" />
         <item itemvalue="Python.myKmeans" />
-        <item itemvalue="Python.tt" />
-        <item itemvalue="Python.qxj" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +611,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="171" width="1378" height="735" extended-state="0" />
+    <frame x="1600" y="67" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
@@ -611,9 +619,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.320598" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.2572079" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3156146" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.320598" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.2572079" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="3" weight="0.036308624" />
@@ -804,8 +812,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/site-packages/numpy/core/_methods.py" />
-    <entry file="file://$PROJECT_DIR$/tmp/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tmp/dir1/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tmp/dir1/dir2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tmp/dir1/dir2/mod/model.py" />
@@ -1136,8 +1142,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/func/myheapd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="-24">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mycollection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
         </state>
       </provider>
     </entry>
