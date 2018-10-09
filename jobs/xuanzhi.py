@@ -45,7 +45,15 @@ class xuanzhiClass:
 			time.sleep(0.1)
 		return "spider over"
 
-	def addShop(self):
+	def drawShops(self):
+		'''向选址平台添加today门店(工厂模式-按坐标)'''
+		with mymysql(myconfig) as my:
+			stores = my.select("select a.store_name,b.location,a.store_age,a.store_business_district_level1_name,store_type from dw.dim_stores_info a,spider.today b where a.store_code = b.shopid and a.operation_current_flag=1,and b.city!='武汉'")
+		for store in stores:
+			self.addShop(store)
+
+	def addShop(self,items):
+		name,location,store_age,community,store_type = items
 		'''向选址平台添加today门店（按坐标方式）'''
 		url = "http://xuanzhi.today36524.com/store/create"
 		head = {
@@ -59,14 +67,14 @@ class xuanzhiClass:
 			"categoryName":"已开店",
 			"country":"中国",
 			"district":"",
-			"latlon":"108.298565,22.881228",
+			"latlon":location,
 			"markerCate":"已开店",
 			"storeInfo":json.dumps({
-				"店龄":"新开店",
-				"社区类型":"学校型",
-				"店铺类型":"直营"
+				"店龄":store_age,
+				"社区类型":community,
+				"店铺类型":store_type
 			}),
-			"storeName":"安吉客运店"
+			"storeName":name
 		}
 		print(json.dumps(postdata))
 		print(head)
@@ -75,6 +83,4 @@ class xuanzhiClass:
 		print(resp.text)
 
 if __name__ == "__main__":
-	with mymysqlclass(myconfig) as my:
-		data =my.select("select * from spider.today")
-	print(data)
+	xuanzhiclass().drawShops()
