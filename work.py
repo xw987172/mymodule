@@ -44,7 +44,9 @@ if __name__=="__main__":
 	'''
 	for args in eval(jobList):
 		p = multiprocessing.Process(target = job,args=args)
+		#p.daemon = True
 		p.start()
+	#p.join()
 
 	print("The number of CPU is:" +str(multiprocessing.cpu_count()))
 	for p in multiprocessing.active_children():
