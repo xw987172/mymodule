@@ -2,6 +2,7 @@
 from eprogress import LineProgress,CircleProgress,MultiProgressManager
 import configparser,time,sys
 from concurrent.futures import ProcessPoolExecutor,as_completed
+import multiprocessing
 
 config = configparser.ConfigParser()
 config.read("config.ini")
@@ -32,6 +33,7 @@ def job(*args):
         print("no class")
 
 if __name__=="__main__":
+	'''
     with ProcessPoolExecutor() as exe:
         futures = {exe.submit(job,m,c,f):(m,c,f) for m,c,f in eval(jobList)}
         for f in as_completed(futures):
@@ -39,3 +41,12 @@ if __name__=="__main__":
                 print('job (%s) result is %s.' %(futures[f],f.result()))
             except Exception as e:
                 print(e)
+	'''
+	for args in eval(jobList):
+		p = multiprocessing.Process(target = job,args=args)
+		p.start()
+
+	print("The number of CPU is:" +str(multiprocessing.cpu_count()))
+	for p in multiprocessing.active_children():
+		print("child p.name:"+p.name+"\tp.id "+str(p.pid))
+	print("END!!!!!!!!!!!!!!!!!!!!!!!!!!!")
