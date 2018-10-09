@@ -1,10 +1,11 @@
 #coding:utf8
-
+import sys
+sys.path.append("/home/hdfs/mymodule")
 import requests,time,json
 import base64
 from Crypto.Cipher import PKCS1_v1_5 as Cipher_pkcs1_v1_5
 from Crypto.PublicKey import RSA
-
+from func.mymysql import mymysqlclass,myconfig 
 class xuanzhiClass:
 	preLoginUrl = "http://xuanzhi.today36524.com/login.html#/"
 	def __init__(self):
@@ -74,4 +75,6 @@ class xuanzhiClass:
 		print(resp.text)
 
 if __name__ == "__main__":
-	xuanzhiClass().addShop()
+	with mymysqlclass(myconfig) as my:
+		data =my.select("select * from spider.today")
+	print(data)
