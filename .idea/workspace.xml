@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a34f7-93e9-4ad7-a780-74c991ee086e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/func/echarts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/echarts/myecharts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func/mymail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/OnlineShops/Recognize1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func/echarts/pic1.png" beforeDir="false" afterPath="$PROJECT_DIR$/func/pic1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func/mymail.py" beforeDir="false" afterPath="$PROJECT_DIR$/func/mymail.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,38 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mycollection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/mycollection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jd2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jd2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdShop.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdShop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="137">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,16 +84,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mymail.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mymail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/mymail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+            <state relative-caret-position="133">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#14#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myhive.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/myhive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
@@ -134,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/func/echarts/myecharts.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="e#15#47#0" expanded="true" />
               </folding>
@@ -143,15 +128,27 @@
         </entry>
       </file>
       <file leaf-file-name="pic1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/echarts/pic1.png">
+        <entry file="file://$PROJECT_DIR$/func/pic1.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="work.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="874">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="e#16#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mymath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/mymath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -233,7 +230,6 @@
         <option value="$PROJECT_DIR$/tmp/tmp1.py" />
         <option value="$PROJECT_DIR$/func/myParamiko.py" />
         <option value="$PROJECT_DIR$/tmp/wechattickets.py" />
-        <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops/test.js" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops/rsapaire.js" />
         <option value="$PROJECT_DIR$/jobs/OnlineShops/jd2.py" />
@@ -257,6 +253,7 @@
         <option value="$PROJECT_DIR$/func/echarts/__init__.py" />
         <option value="$PROJECT_DIR$/func/echarts/myecharts.py" />
         <option value="$PROJECT_DIR$/func/mymail.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
       </list>
     </option>
   </component>
@@ -318,6 +315,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xwtoday\PycharmProjects\mymodule\func" />
       <recent name="C:\Users\xwtoday\PycharmProjects\mymodule\jobs\ImageAbout" />
       <recent name="$PROJECT_DIR$/jobs/OnlineShops" />
       <recent name="$PROJECT_DIR$/jobs/JD" />
@@ -335,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myecharts">
+  <component name="RunManager" selected="Python.myhive">
     <configuration name="Recognize1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mymodule" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -412,7 +410,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="myheapd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myhive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mymodule" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -425,7 +423,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/myheapd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/myhive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -577,19 +575,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.myheapd" />
       <item itemvalue="Python.mycollection" />
       <item itemvalue="Python.Recognize1" />
       <item itemvalue="Python.mymail" />
       <item itemvalue="Python.myecharts" />
+      <item itemvalue="Python.myhive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.myhive" />
         <item itemvalue="Python.mymail" />
         <item itemvalue="Python.myecharts" />
         <item itemvalue="Python.Recognize1" />
         <item itemvalue="Python.mycollection" />
-        <item itemvalue="Python.myheapd" />
       </list>
     </recent_temporary>
   </component>
@@ -624,9 +622,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27829698" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.320598" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.1881663" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27829698" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31983384" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5868421" visible="true" weight="0.1881663" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="3" weight="0.036308624" />
@@ -817,7 +815,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6-dev/lib/python3.6/codecs.py" />
     <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jdjsencrypt.js" />
     <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/jsencrypt.js" />
     <entry file="file://$PROJECT_DIR$/func/AddKey/jsEncrypt.py">
@@ -840,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/mymath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -970,13 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/myhive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machine_learning/character/neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
@@ -1073,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/OnlineShops/Recognize1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1093,36 +1069,63 @@
     <entry file="file://$PROJECT_DIR$/func/echarts/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/echarts/render.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/func/echarts/myecharts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="e#15#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/echarts/pic1.png">
+    <entry file="file://$PROJECT_DIR$/task">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#16#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/mymath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/pic1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/func/mymail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state relative-caret-position="133">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="e#14#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/myhive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

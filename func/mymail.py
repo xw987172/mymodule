@@ -1,8 +1,11 @@
 #coding=utf-8
 import smtplib,time,os,sys
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
+from email.mime.image import MIMEImage
 from func.echarts.myecharts import createPic
+from func.myhive import myhiveclass,myconf
 class MyMail:
     def __init__(self,server,user,passwd,tfrom,tto):
         self.user = user
@@ -29,13 +32,14 @@ class MyMail:
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-            <title>获取地理位置</title>
-            <style type="text/css">#iCenter{width:300px; height: 280px; border:1px #000 solid;margin:20px auto;}</style>
+            <title>鲜食订购周通报</title>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.js"></script>
         </head>
         <body>
         
-        <p id="location"></p>
+        <p>各位：<br/>
+        {0}-{1}鲜食商品订销比、报损率周通报如下：<br/><br/>
+        </p>
         <table border="1">
             <tbody>
                 <tr>
@@ -74,13 +78,29 @@ class MyMail:
                 </tr>
             </tbody>
         </table>
-        <div id="pic1" style="width: 600px;height:400px;display: none;">
-            <img src="{0}"/>
+        <div id="pic1" style="width: 600px;height:400px;">
+            下面应该有图片
+            <img src="cid:imageid" alt="imageid"/>
         </div>
         </body>
         </html>
-        """.format("./echarts/pic1.png")
-        self.msg = MIMEText(mail_body,_subtype="html",_charset="utf-8")
+        """
+        self.msg = MIMEMultipart("related")
+        content = MIMEText(mail_body,_subtype="html",_charset="utf-8")
+        self.msg.attach(content)
+
+        img_data = open("./pic1.png","rb").read()
+        img = MIMEImage(img_data)
+        img.add_header("Content-ID","imageid")
+        self.msg.attach(img)
+
+    def createTable(self,sql):
+        '''
+        创建html中的table
+        :param sql:
+        :return:
+        '''
+
 
     def work(self):
         print(format("发送邮件", "=^50"))
